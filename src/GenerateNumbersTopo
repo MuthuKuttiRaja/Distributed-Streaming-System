@@ -1,0 +1,4 @@
+TopologyBuilder.set_Spout(spout,SpoutClass);
+TopologyBuilder.set_Bolt(bolt1,BoltClass1,1,shufflegrouping,spout)
+TopologyBuilder.set_Bolt(bolt2,BoltClass2,1,allgrouping,bolt1)
+TopologyBuilder.set_Bolt(bolt3,BoltClass3,1,allgrouping,bolt2)

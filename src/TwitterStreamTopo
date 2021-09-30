@@ -1,0 +1,3 @@
+TopologyBuilder.set_Spout(spout,TwitterStreamClass);
+TopologyBuilder.set_Bolt(bolt1,TwitterBoltMergeClass,1,fieldsgrouping,spout)
+TopologyBuilder.set_Bolt(bolt2,TwitterReportBolt,1,allgrouping,bolt1)
