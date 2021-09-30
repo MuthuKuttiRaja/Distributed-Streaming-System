@@ -245,10 +245,10 @@ class TwitterStreamClass
 	{
 	    ConfigurationBuilder cb = new ConfigurationBuilder();
 	    cb.setDebugEnabled(true);
-	    cb.setOAuthConsumerKey("pOjmB0p78k2Pt7VsiXt3tA2ZT");
-	    cb.setOAuthConsumerSecret("wWqrRtmH3wihXUW7oiQcnertSxdKgyQt0oT5W94jSePtjQj76i");
-	    cb.setOAuthAccessToken("3442785313-TSr3R5batI6bwZCOPNWRcv4y6qHBnTWzsGO8KME");
-	    cb.setOAuthAccessTokenSecret("8EpHkChlsP2wDOfbW2MkhxaDScm7FQwokOtGASKXsAIMS");
+	    cb.setOAuthConsumerKey("");
+	    cb.setOAuthConsumerSecret("");
+	    cb.setOAuthAccessToken("");
+	    cb.setOAuthAccessTokenSecret("");
 
 	    TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
 	    StatusListener listener = new StatusListener() {
